@@ -1,0 +1,5 @@
+_precompiler.*
+_variant.*
+*.css
+source/script/
+build/

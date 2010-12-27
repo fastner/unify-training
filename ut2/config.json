@@ -1,0 +1,22 @@
+{
+  "name"    : "ut2",
+
+  "include" :
+  [
+    {
+      "path" : "${UNIFY_PATH}/framework/application.json"
+    }
+  ],
+
+  "let" :
+  {
+    "QOOXDOO_PATH"      : "../qooxdoo/qooxdoo",
+    "UNIFY_PATH"        : "../qooxdoo/qooxdoo/../../unify",
+    "APP_PATH"          : ".",
+
+    "CACHE"             : "${TMPDIR}/cache",
+
+    "APP_NAME"          : "ut2",
+    "APP_LOCALES"       : [ "de" ]
+  }
+}
